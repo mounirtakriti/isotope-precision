@@ -1,7 +1,7 @@
 library(IsoplotR)
 library(MonteCarlo)
 
-# Moving mean function (credit: Matti Pastell, https://stackoverflow.com/questions/743812/calculating-moving-average)
+# Moving mean function (credit: Matti Pastell, https://stackoverflow.com/a/4862334)
 ma <- function(x,n){filter(x,rep(1/n,n), sides=1)}
 
 
